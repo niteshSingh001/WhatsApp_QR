@@ -3,7 +3,7 @@ import QRCode from "react-qr-code";
 
 const WhatsAppQRCode = () => {
   // Access the phone number from the environment variable
-  const phoneNumber = process.env.REACT_APP_WHATSAPP_PHONE_NUMBER;
+  const phoneNumber = 6387876587;
 
   // Create the WhatsApp link
   const whatsappLink = `https://wa.me/${phoneNumber}`;
